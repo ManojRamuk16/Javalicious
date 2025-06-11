@@ -1,0 +1,15 @@
+Encapsulation is the process in which we bind the data member and methods into single unit.
+Encapsulation is used to hide the implementation part and shows only the functionality for readability and usability.
+
+How Encapsulation is implemented?
+Implementing the data  or member variable declared in private access modifier.
+
+Getter and Setter methods are used to provide the functionality  and the implementation of the method is hidden from the user.
+
+
+Advantage of Encapsulation:
+  Data hiding - Internal data of objects are hidden,preventing direct access
+  Data integrity - values can be assigned via set method
+  Reusability - It is reusable for further modification.
+  Security - Sensitive data is protected as it can't accessed directly.
+  
