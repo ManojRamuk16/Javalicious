@@ -1,0 +1,5 @@
+Static method is used to create a method that belongs to class rather than any specific instance of the class.
+
+Static method can access static variable directly without the need of object.
+Static method can access directly in both static and non static context.
+JVM executes the static method first even before creating class objects.
