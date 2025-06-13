@@ -8,3 +8,43 @@ Method Overloading[Compile time polymorphism]
 Method overriding [Run time polymorphism]
 
 Method Overloading means two or more methods in a class having same name with different number of arguments or different data type of arguments.
+Method Overriding occurs when a subclass provides a specific implementation for a method that is already defined in the superclass.
+
+
+Rules for Java Method Overriding
+The method must have the same name as in the parent class.
+The method must have the same parameter as in the parent class.
+There must be an IS-A relationship (inheritance).
+
+
+Advantages of Polymorphism in Java
+Code Reusability: 
+Polymorphism allows methods to be reused across different classes, reducing the need for redundant code.
+
+Flexibility and Extensibility:
+Polymorphism enables the development of flexible and extensible code. 
+New classes can be added without modifying existing code, as long as they adhere to the required interfaces or inherit from existing classes.
+
+Simplification of Code: 
+Polymorphism simplifies code by allowing methods to be defined in superclasses and overridden in subclasses. 
+This promotes a clean and organized class hierarchy.
+
+Enhanced Maintainability:
+Since polymorphism encourages code reuse and modularization, it enhances code maintainability. 
+Changes made in one part of the codebase may have minimal impact on other parts, making it easier to manage and debug.
+
+Dynamic Method Dispatch:
+Polymorphism enables dynamic method dispatch, where the appropriate method implementation is determined at runtime based on the actual object type. 
+This promotes flexibility and runtime polymorphism.
+
+Support for Interfaces: 
+Polymorphism facilitates the use of interfaces, allowing objects of different classes to be treated interchangeably based on shared behavior defined by interfaces.
+This promotes loose coupling and abstraction.
+
+Facilitation of Overloading and Overriding: 
+Polymorphism supports method overloading and overriding, allowing for the creation of multiple methods with the same name but different behaviors.
+This promotes code clarity and flexibility.
+
+Encouragement of Design Patterns:
+Polymorphism is central to many design patterns in Java, such as the Strategy pattern, Factory pattern, and Decorator pattern.
+Leveraging polymorphism in design patterns leads to more maintainable and scalable software architectures.
