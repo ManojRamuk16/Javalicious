@@ -1,0 +1,4 @@
+SingleTon Design pattern
+
+  To avoid private field constructor,there must be a singleton Design Pattern to ensure only one instance of a class exists throughtout the application.
+  Global access point to get the instance of a class
