@@ -1,0 +1,71 @@
+What is java?
+Java is a high-level, object oriented programming language developed by sun microsystems. 
+Java is a platform independent platform due to its Write Once,Run Anywhere principle via Java Virtual Machine[JVM].
+It is widely used for building enterprise applications, android applications and web applications.
+=================================
+What is JVM,JRE,JDK?
+JVM - Java Virtual Machine- used for run java bytecode on any platform.It loads the .class file using Class Loader. 
+JIT compilers converts byte code into a native machine code at run time for faster execution
+JRE- Java Runtime Environment - It contains JVM and libraries to run the java programs.
+JDK- Java Development Kit - It contains JRE and development tools like Compiler(javac)
+=================================
+what are the features of java?
+Object-oriented - In java, Code is organized using classes and objects
+Platform-independent - Runs on any OS using JVM
+Secure-Byte code verification and no memory corruption
+Robust - strong error handling and memory management
+Multithreaded - Build in support for concurrent programming
+portable-Byte code can run on any platform using JVM.
+High performance(with JIT compiler) -JIT compiler boosts runtime performance.
+=================================
+What is class and objects?
+class is a blueprint/template for creating objects.
+objects is a instance of a class.
+Instance is a real object made from a class.
+A class is like a plan or recipe.
+An instance is a actual thing built from the plan.
+=================================
+What is Constructor?
+A constructor is a special method which is called when the object is created. It has the same name as the class and doesn't have a return type.
+
+=================================
+
+What is the difference between == and .equals()?
+== Checks the two  references points to the same object(memory address)
+.equals() check if two objects have the same values(for classes like string)
+
+=================================
+
+What is Inheritance?
+Inheritance allows one class to inherit properties and methods from the other.
+
+=================================
+
+What is the difference between method overloading and method overriding?
+In method overloading, we have the same method name with different number of parameters or different types of parameters.
+In method overriding, we redifines a super class method in sub class
+
+=================================
+
+What is Encapsulation?
+Encapsulation is  the process of hiding the internal state of the object and requires all the interaction to be perfomed through an object's method.
+(using private private variables+ getter/setter)
+
+what are the access specifiers?
+Public - Accessible from everywhere.
+private - Accessible within the class only
+protected - Accessible within the package and sub classes.
+default - Accessible within the package only.
+
+what is this keyword?
+ this refers to the current object of the class. It is used to resolve the confusions between instance variables and parameters.
+
+what is the use of super keyword?
+super refers to the parent class object.It is used to access the parent class methods/constructors.
+
+what is the difference between static and non static methods?
+static method belongs to the class and can be called without using objects.
+non static methods require  an object to be called.
+
+What is package?
+ A package in java is a namespace that organizes  class and interfaces.
