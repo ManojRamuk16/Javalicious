@@ -1,0 +1,12 @@
+Java 8 introduced several powerful features that significantly improved the language, 
+  especially in terms of functional programming, concurrency, and API enhancements.
+
+  The major features in java 8:
+=> Lambda Expression : Enables user to treat functionality as a method argument(functions as data).
+=> Stream Api :A new way to process collections in a functional style. Supports operations like filter,map,reduce etc
+=> Functional Interface :Interface with a single abstract method.
+=> Default Methods : Interface methods with default implementation
+=> Method References : shorthand for lambda expressions.
+=> optional class: null-safe container class.
+=> Date and Time api : Improved date and time handling
+=> Nashorn Javascript Engine : Allows user to run javascript within java using javax.script.ScriptEngine
