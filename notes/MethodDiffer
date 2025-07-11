@@ -1,0 +1,13 @@
+offer and add
+
+Offer - both are used to insert an element into the queue. If the queue is full and can't accept the element, offer will return false instead of throwing an exception. If the element is successfully added it returns true.
+Add - add will raise a exception if the queue is full and return nothing if element added successfully.
+
+next and hasnext
+next- This method retrieves the next element from the iterator and returns the next element in the sequence
+hasnext - Checks if the iterator has more element to process and returns true if there are more element. 
+
+remove and poll
+
+Remove and poll methods are used to retrieve the head and  remove the first element of the queue.
+In remove if the queue is empty it throws no such element exception,whereas poll return null if the queue is empty.
